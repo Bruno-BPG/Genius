@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#ladoDeCima{
+    display: flex;
+    flex-direction: row;
+}
+#ladoDeBaixo{
+    display: flex;
+    flex-direction: row;
+}
+/*.botaoColorido{
+    
+}
+*/
+    .btnVermelho{
+    background-color: #C30000;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 200px ; 
+    border: solid rgb(63, 62, 62) 6px;
+
+    }
+
+    .btnAmarelo{
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 200px ;
+    border: solid rgb(63, 62, 62) 6px;
+
+    }
+
+    .btnAzul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 200px;
+    border: solid rgb(63, 62, 62) 6px;
+
+    }
+
+    .btnVerde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius:200px ;
+    border: solid rgb(63, 62, 62) 6px;
+
+    }
+#divResultados{
+    width: 700px;
+    height: 200px;
+    background-color: black;
+    border:solid 6px green;
+}
+#SorteioVermelho{
+    background-color: #FF4242;
+}
+#divResultados{
+    display: flex;
+    flex-direction: column;
+}
+#divBottons{
+    width: auto;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoComecar{
+    background-color: black;
+    color: green;
+    border: solid 3px green;
+    border-radius: 20%;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+}
+
+
+
+#placares{
+    display: flex ;
+    flex-direction: row;
+    width: auto;
+    height: 30%;
+    background-color: black;
+}
+#placarAtual{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    row-gap: 10px;
+    font-size: 30px;
+    color:green;
+    border: solid 3px green;
+}
+#melhorPlacar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    font-size: 30px;
+    color: green;
+    border: solid 3px green;
+}
+
+#jogarNovamente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 70%;
+    border:solid 3px green;
+}
+
+.btnJogarNovamente{
+    background-color: black;
+    color: green;
+    border: solid 3px green;
+    border-radius: 20%;
+    width: 200px;
+    height: 80px;
+    font-size: 28px;
+}
+
+#avisoInicio{
+    color: green;
+    font-size: 40px;
+}
+
+#jogarNovamentePontuacao{
+    padding: 10px 10px 10px 10px;
+    color: green;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    border: solid 3px green;
+}
+#jogarNovamentePontuacao small{
+    color: green;
+    font-size: 50px;
+}
+#passouDeFase{
+    color: green;
+    font-size: 40px;
+}
+#botaoJogarNovamente{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap:10px;
+}
+#botaoJogarNovamente small{
+    color: green;
+    font-size: 25px;
+}
+.contJogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: black;
+    border: solid 6px green;
+}
+#titulo{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 700px;
+
+ color: green;
+ border: solid 6px green;
+ font-size: 40px;
+}
